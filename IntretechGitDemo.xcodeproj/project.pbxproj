@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0A6E9C219D173E006167A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A6E9B219D173E006167A2 /* AppDelegate.m */; };
+		1D0A6E9F219D173E006167A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A6E9E219D173E006167A2 /* ViewController.m */; };
+		1D0A6EA2219D173F006167A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0A6EA0219D173F006167A2 /* Main.storyboard */; };
+		1D0A6EA4219D1750006167A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0A6EA3219D1750006167A2 /* Assets.xcassets */; };
+		1D0A6EA7219D1750006167A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0A6EA5219D1750006167A2 /* LaunchScreen.storyboard */; };
+		1D0A6EAA219D1750006167A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A6EA9219D1750006167A2 /* main.m */; };
+		1D0A6EB4219D1751006167A2 /* IntretechGitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A6EB3219D1751006167A2 /* IntretechGitDemoTests.m */; };
+		1D0A6EBF219D1751006167A2 /* IntretechGitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A6EBE219D1751006167A2 /* IntretechGitDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D0A6EB0219D1751006167A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D0A6E8F219D173E006167A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D0A6E96219D173E006167A2;
+			remoteInfo = IntretechGitDemo;
+		};
+		1D0A6EBB219D1751006167A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D0A6E8F219D173E006167A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D0A6E96219D173E006167A2;
+			remoteInfo = IntretechGitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D0A6E97219D173E006167A2 /* IntretechGitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntretechGitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0A6E9A219D173E006167A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D0A6E9B219D173E006167A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D0A6E9D219D173E006167A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D0A6E9E219D173E006167A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D0A6EA1219D173F006167A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D0A6EA3219D1750006167A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D0A6EA6219D1750006167A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D0A6EA8219D1750006167A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0A6EA9219D1750006167A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D0A6EAF219D1751006167A2 /* IntretechGitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntretechGitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0A6EB3219D1751006167A2 /* IntretechGitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntretechGitDemoTests.m; sourceTree = "<group>"; };
+		1D0A6EB5219D1751006167A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0A6EBA219D1751006167A2 /* IntretechGitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntretechGitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0A6EBE219D1751006167A2 /* IntretechGitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntretechGitDemoUITests.m; sourceTree = "<group>"; };
+		1D0A6EC0219D1751006167A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D0A6E94219D173E006167A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A6EAC219D1751006167A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A6EB7219D1751006167A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0A6E8E219D173E006167A2 = {
+			isa = PBXGroup;
+			children = (
+				1D0A6E99219D173E006167A2 /* IntretechGitDemo */,
+				1D0A6EB2219D1751006167A2 /* IntretechGitDemoTests */,
+				1D0A6EBD219D1751006167A2 /* IntretechGitDemoUITests */,
+				1D0A6E98219D173E006167A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D0A6E98219D173E006167A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A6E97219D173E006167A2 /* IntretechGitDemo.app */,
+				1D0A6EAF219D1751006167A2 /* IntretechGitDemoTests.xctest */,
+				1D0A6EBA219D1751006167A2 /* IntretechGitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D0A6E99219D173E006167A2 /* IntretechGitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A6E9A219D173E006167A2 /* AppDelegate.h */,
+				1D0A6E9B219D173E006167A2 /* AppDelegate.m */,
+				1D0A6E9D219D173E006167A2 /* ViewController.h */,
+				1D0A6E9E219D173E006167A2 /* ViewController.m */,
+				1D0A6EA0219D173F006167A2 /* Main.storyboard */,
+				1D0A6EA3219D1750006167A2 /* Assets.xcassets */,
+				1D0A6EA5219D1750006167A2 /* LaunchScreen.storyboard */,
+				1D0A6EA8219D1750006167A2 /* Info.plist */,
+				1D0A6EA9219D1750006167A2 /* main.m */,
+			);
+			path = IntretechGitDemo;
+			sourceTree = "<group>";
+		};
+		1D0A6EB2219D1751006167A2 /* IntretechGitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A6EB3219D1751006167A2 /* IntretechGitDemoTests.m */,
+				1D0A6EB5219D1751006167A2 /* Info.plist */,
+			);
+			path = IntretechGitDemoTests;
+			sourceTree = "<group>";
+		};
+		1D0A6EBD219D1751006167A2 /* IntretechGitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A6EBE219D1751006167A2 /* IntretechGitDemoUITests.m */,
+				1D0A6EC0219D1751006167A2 /* Info.plist */,
+			);
+			path = IntretechGitDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D0A6E96219D173E006167A2 /* IntretechGitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0A6EC3219D1751006167A2 /* Build configuration list for PBXNativeTarget "IntretechGitDemo" */;
+			buildPhases = (
+				1D0A6E93219D173E006167A2 /* Sources */,
+				1D0A6E94219D173E006167A2 /* Frameworks */,
+				1D0A6E95219D173E006167A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntretechGitDemo;
+			productName = IntretechGitDemo;
+			productReference = 1D0A6E97219D173E006167A2 /* IntretechGitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D0A6EAE219D1751006167A2 /* IntretechGitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0A6EC6219D1751006167A2 /* Build configuration list for PBXNativeTarget "IntretechGitDemoTests" */;
+			buildPhases = (
+				1D0A6EAB219D1751006167A2 /* Sources */,
+				1D0A6EAC219D1751006167A2 /* Frameworks */,
+				1D0A6EAD219D1751006167A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0A6EB1219D1751006167A2 /* PBXTargetDependency */,
+			);
+			name = IntretechGitDemoTests;
+			productName = IntretechGitDemoTests;
+			productReference = 1D0A6EAF219D1751006167A2 /* IntretechGitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D0A6EB9219D1751006167A2 /* IntretechGitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0A6EC9219D1751006167A2 /* Build configuration list for PBXNativeTarget "IntretechGitDemoUITests" */;
+			buildPhases = (
+				1D0A6EB6219D1751006167A2 /* Sources */,
+				1D0A6EB7219D1751006167A2 /* Frameworks */,
+				1D0A6EB8219D1751006167A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0A6EBC219D1751006167A2 /* PBXTargetDependency */,
+			);
+			name = IntretechGitDemoUITests;
+			productName = IntretechGitDemoUITests;
+			productReference = 1D0A6EBA219D1751006167A2 /* IntretechGitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D0A6E8F219D173E006167A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = intretech;
+				TargetAttributes = {
+					1D0A6E96219D173E006167A2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1D0A6EAE219D1751006167A2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1D0A6E96219D173E006167A2;
+					};
+					1D0A6EB9219D1751006167A2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1D0A6E96219D173E006167A2;
+					};
+				};
+			};
+			buildConfigurationList = 1D0A6E92219D173E006167A2 /* Build configuration list for PBXProject "IntretechGitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D0A6E8E219D173E006167A2;
+			productRefGroup = 1D0A6E98219D173E006167A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D0A6E96219D173E006167A2 /* IntretechGitDemo */,
+				1D0A6EAE219D1751006167A2 /* IntretechGitDemoTests */,
+				1D0A6EB9219D1751006167A2 /* IntretechGitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D0A6E95219D173E006167A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0A6EA7219D1750006167A2 /* LaunchScreen.storyboard in Resources */,
+				1D0A6EA4219D1750006167A2 /* Assets.xcassets in Resources */,
+				1D0A6EA2219D173F006167A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A6EAD219D1751006167A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A6EB8219D1751006167A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D0A6E93219D173E006167A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0A6E9F219D173E006167A2 /* ViewController.m in Sources */,
+				1D0A6EAA219D1750006167A2 /* main.m in Sources */,
+				1D0A6E9C219D173E006167A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A6EAB219D1751006167A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0A6EB4219D1751006167A2 /* IntretechGitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A6EB6219D1751006167A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0A6EBF219D1751006167A2 /* IntretechGitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D0A6EB1219D1751006167A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D0A6E96219D173E006167A2 /* IntretechGitDemo */;
+			targetProxy = 1D0A6EB0219D1751006167A2 /* PBXContainerItemProxy */;
+		};
+		1D0A6EBC219D1751006167A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D0A6E96219D173E006167A2 /* IntretechGitDemo */;
+			targetProxy = 1D0A6EBB219D1751006167A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D0A6EA0219D173F006167A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0A6EA1219D173F006167A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D0A6EA5219D1750006167A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0A6EA6219D1750006167A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D0A6EC1219D1751006167A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D0A6EC2219D1751006167A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D0A6EC4219D1751006167A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntretechGitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intretech.IntretechGitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D0A6EC5219D1751006167A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntretechGitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intretech.IntretechGitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D0A6EC7219D1751006167A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntretechGitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intretech.IntretechGitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntretechGitDemo.app/IntretechGitDemo";
+			};
+			name = Debug;
+		};
+		1D0A6EC8219D1751006167A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntretechGitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intretech.IntretechGitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntretechGitDemo.app/IntretechGitDemo";
+			};
+			name = Release;
+		};
+		1D0A6ECA219D1751006167A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntretechGitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intretech.IntretechGitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntretechGitDemo;
+			};
+			name = Debug;
+		};
+		1D0A6ECB219D1751006167A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntretechGitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intretech.IntretechGitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntretechGitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D0A6E92219D173E006167A2 /* Build configuration list for PBXProject "IntretechGitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0A6EC1219D1751006167A2 /* Debug */,
+				1D0A6EC2219D1751006167A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0A6EC3219D1751006167A2 /* Build configuration list for PBXNativeTarget "IntretechGitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0A6EC4219D1751006167A2 /* Debug */,
+				1D0A6EC5219D1751006167A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0A6EC6219D1751006167A2 /* Build configuration list for PBXNativeTarget "IntretechGitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0A6EC7219D1751006167A2 /* Debug */,
+				1D0A6EC8219D1751006167A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0A6EC9219D1751006167A2 /* Build configuration list for PBXNativeTarget "IntretechGitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0A6ECA219D1751006167A2 /* Debug */,
+				1D0A6ECB219D1751006167A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D0A6E8F219D173E006167A2 /* Project object */;
+}
